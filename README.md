@@ -3,7 +3,7 @@ Course Roster
 
 By Julio Diaz && Ashlin Aronin, 23-Sep-2015
 
-A course roster using Angular-ui router and AJAX.
+A course roster using Angular-ui router.
 
 Setup
 ----------
