@@ -7,6 +7,11 @@
 	</ul>
 </div>
 
+<!-- get course name from students controller variable and pass it into the directive
+to display -->
+<h3>Example course name from directive:</h3>
+<div sample-course course-name="ctrlCourseName"></div>
+
 <div>
 	<h2>Add a student to {{ course.name }}</h2>
 	<form ng-submit="addStudent()" class="form-inline" role="form">
@@ -15,5 +20,5 @@
 		</div>
 		<button type="submit" class="btn btn-default">Submit</button>
 	</form>
-	<div sample-course course-name="History"></div>
+
 </div>
