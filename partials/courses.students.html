@@ -1,7 +1,7 @@
 <div ng-show="course.students.length">
 	<h2>Student List for {{ course.name }}</h2>
 	<ul>
-		<li ng-repeat="item in course.students">
+		<li ng-repeat="item in course.students" debug>
 			{{ item.name }}
 		</li>
 	</ul>
@@ -11,6 +11,14 @@
 to display -->
 <h3>Example course name from directive:</h3>
 <div sample-course course-name="ctrlCourseName"></div>
+
+<!-- alert-user directive has alert attribute with value ctrlAlert(), referring
+to the ctrlAlert function in the StudentsCtrl -->
+<alert-user alert="ctrlAlert(message)"></alert-user>
+<alert-user alert="ctrlAlert(message)"></alert-user>
+<alert-user alert="ctrlAlert(message)"></alert-user>
+<alert-user alert="ctrlAlert(message)"></alert-user>
+<alert-user alert="ctrlAlert(message)"></alert-user>
 
 <div>
 	<h2>Add a student to {{ course.name }}</h2>

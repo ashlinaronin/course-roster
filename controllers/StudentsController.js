@@ -10,5 +10,10 @@ courseRoster.controller('StudentsCtrl',
 
 		// Define an example course name to pass into our new directive
 		$scope.ctrlCourseName = "Chemistry";
+
+		$scope.ctrlAlert = function(message) {
+			alert(message);
+		};
+
 	}
 );
